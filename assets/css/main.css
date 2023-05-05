@@ -4203,3 +4203,9 @@ input, select, textarea {
 		}
 
 	}
+/* Video Container */
+	.video-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }

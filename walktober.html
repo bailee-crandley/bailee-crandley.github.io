@@ -31,39 +31,82 @@
 								<div class="inner">
 
 									<h3 class="major">Description</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+									<p>Walktober is an annual event held at Portland State University's Rec Center where they challenge participants to walk 10,000 steps every day in the month of October. The program requires software that allows participants to log their daily steps and admins to view who has won the incentives. In the past, the software that they used was either expensive or difficult to use.</p>
 
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
+									<p>My frontend team worked together with a backend team to create a website and mobile application that accomplishes everything the Rec Center needs to implement this program. Users can sign up, log in, enter their steps manually, connect their smart wactches to log steps automatically, view their position in the leaderboard, create a new team, join an existing team, view the teams' leaderboard, chat with all participants, chat with just their team members, and view a bar graph detailing the steps they've taken in the last week. Admins can do all of this, plus see a table of all users and their total steps, see a table of all teams and their total steps, export the user data, export the team data, export the survey data, change the event settings, change the team settings, and post announcements to the group chat.</p>
 
 									<h3 class="major">Tech Specs</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+									<p>In order to achieve all the necessary features in a compressed timeline, we opted to use Ionic, which is an open-source framework for building cross-platform mobile applications. This allowed us to develop the website and mobile application simultaneously. We used Firebase's database and hosting services. For the chats, we embedded discord servers.</p>
 
 									<h3 class="major">Screenshots</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<p>Below is a collection of screenshots from our website.</p>
 
 									<section class="features">
+										<!-- Home Page Light -->
 										<article>
-											<a class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a class="image"><img src="images/Walktober/HomePageLight.png" alt="" /></a>
+											<h3 class="major">Home - Light</h3>
+											<p>The Home Page displays the individual and team leaderboards, the user's daily and total steps, their recent history in a bar graph, and the program group chat.</p>
 										</article>
+										<!-- Home Page Dark -->
 										<article>
-											<a class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a class="image"><img src="images/Walktober/HomePageDark.png" alt="" /></a>
+											<h3 class="major">Home - Dark</h3>
+											<p>All pages on our website are dark-mode compatible and respond to the system's settings.</p>
 										</article>
+										<!-- Log In Page -->
 										<article>
-											<a class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a class="image"><img src="images/Walktober/LogIn.png" alt="" /></a>
+											<h3 class="major">Log In</h3>
+											<p>The Log In Page allows users to log in with either email and password or their Google account.</p>
 										</article>
+										<!-- Forgot Password Page -->
 										<article>
-											<a class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+											<a class="image"><img src="images/Walktober/ForgotPassword.png" alt="" /></a>
+											<h3 class="major">Forgot Password</h3>
+											<p>The Forgot Password Page allows users to have a password reset link sent to their email.</p>
 										</article>
+										<!-- Team Join -->
+										<article>
+											<a class="image"><img src="images/Walktober/TeamJoin.png" alt="" /></a>
+											<h3 class="major">Team Join</h3>
+											<p>The Team Join Page allows users to join an existing team, whether it is a private team or a public team.</p>
+										</article>
+										<!-- Team Creation -->
+										<article>
+											<a class="image"><img src="images/Walktober/TeamCreation.png" alt="" /></a>
+											<h3 class="major">Team Creation</h3>
+											<p>The Team Creation Page allows users to create a public or private team. Private teams will require a password before joining.</p>
+										</article>
+										<!-- Team Home Page-->
+										<article>
+											<a class="image"><img src="images/Walktober/TeamHomePage.png" alt="" /></a>
+											<h3 class="major">Team Home</h3>
+											<p>The Team Home Page allows users to see how they rank in their team, see how their team ranks amongst others, chat with their teammates, and see a table of all their team members.</p>
+										</article>
+										<!-- Admin -->
+										<article>
+											<a class="image"><img src="images/Walktober/Admin.png" alt="" /></a>
+											<h3 class="major">Admin</h3>
+											<p>The Admin Page is only accessible to admins and displays all partcipants and teams. It also allows the admin to change settings, print reports, and post announcements.</p>
+										</article>
+										<!-- Health App Apple -->
+										<article>
+											<a class="image"><img src="images/Walktober/HealthAppIntegrationApple.png" alt="" /></a>
+											<h3 class="major">Health App Integration - Apple</h3>
+											<p>This page is only visible on the mobile appliciation on Apple products. It allows the user to connect their Apple Health app to automatically upload steps.</p>
+										</article>
+										<!-- Health App Android -->
+										<article>
+											<a class="image"><img src="images/Walktober/HealthAppIntegrationAndroid.png" alt="" /></a>
+											<h3 class="major">Health App Integration - Android</h3>
+											<p>This page is only visible on the mobile appliciation on Android products. It allows the user to connect their Google Health app to automatically upload steps.</p>
+										</article>										
 									</section>
 
+									<div class="video-container">
+										<iframe width="840" height="472" src="https://www.youtube.com/embed/VGVTx1ZUkIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+									</div>
 								</div>
 							</div>
 
